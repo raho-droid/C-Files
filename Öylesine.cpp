@@ -1,0 +1,16 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+int b[2][3]={{30,25,20},{15,10,5}};
+int a[2][3]={{5,10,15},{20,25,30}};
+int ab[2][3];
+for(int i=0;i<2;i++){
+	for(int j=0;j<3;j++){
+		ab[i][j]=a[i][j]+b[i][j];
+		cout<<ab[i][j]<<" ";
+	}
+	cout<<endl;
+}
+}
